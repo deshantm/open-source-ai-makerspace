@@ -11,4 +11,4 @@ def square_number(num):
     return num + num  # Error: uses addition instead of squaring the number
 
 def negate_boolean(value):
-    return value + 1  # Error: attempts to add 1 to a boolean value
+    return not value  # Fixed: correctly negates boolean value
